@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        "use strict";
+        //lê os dados de entrada
+        let valorReais = Number(prompt("Digite quanto deseja pagar em reais: "));
+        let gasolina = Number(prompt("Digite o preço do litro da gasolina: "));
+        //Calculo
+        let preco = (valorReais / gasolina);
+        //exibe o total
+        let resultado = "Com R$" + valorReais+ " você consegue colocar aproximadamente " + preco+ " litros de gasolina.";
+        // exibe no console e em um alerta
+        console.log(resultado);
+        alert(resultado);
+    </script>
+</body>
+</html>

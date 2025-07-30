@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        "use strict";
+        //lê os dados de entrada
+        let camisasQntdPequena = Number(prompt("Informe a quantidade de camisetas pequenas vendidas: "));
+        let camisasQntdMedia = Number(prompt("Informe a quantidade de camisetas médias vendidas: "));
+        let camisasQntdGrande = Number(prompt("Informe a quantidade de camisetas grande vendidas: "));
+        //Calculo
+        let camisasPequena = (camisasQntdPequena * 10);
+        let camisasMedia = (camisasQntdMedia * 12);
+        let camisasGrande = (camisasQntdGrande * 15);
+        let camisasTotais = (camisasPequena + camisasMedia + camisasGrande);
+        //exibe o total
+        let resultado = "O valor total arrecadado com a venda das camisetas foi " +camisasTotais;
+        // exibe no console e em um alerta
+        console.log(resultado);
+        alert(resultado);
+    </script>
+</body>
+</html>

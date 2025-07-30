@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        "use strict";
+        //lê os dados de entrada
+        let salarioAtual = Number(prompt("Digite o seu salário Atual: "));
+        //Calculo
+        let salarioAumento = ((salarioAtual * 0.15) + salarioAtual);
+        let salarioImposto = (salarioAumento * 0.08);
+        let salarioFinal = ((salarioAumento - salarioImposto));
+        //exibe o total
+        let resultado = "Para um salário inicial de R$" +salarioAtual+ " com aumento de 15%  o salário vai para R$" +salarioAumento+ " e, após desconto de 8% de impostos (R$" +salarioImposto+ ") o salário final é R$" +salarioFinal; 
+        // exibe no console e em um alerta  
+        console.log(resultado);
+        alert(resultado);
+    </script>
+</body>
+</html>
