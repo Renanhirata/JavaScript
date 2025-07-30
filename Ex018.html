@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        "use strict";
+        //Lê os dados de entrada
+        let temperatura = parseFloat(prompt("Informe a temperatura em °C: "));
+        //Calculo e Resultado
+        if(temperatura <= 15){
+            document.write("Está frio ("+temperatura+"°C)");
+        }
+        else if(temperatura > 15 && temperatura <30){
+            document.write("Está agradável ("+temperatura+"°C)");
+        }
+        else if(temperatura >= 30){
+            document.write("Está Quente ("+temperatura+"°C)");
+        }
+    </script>
+</body>
+</html>

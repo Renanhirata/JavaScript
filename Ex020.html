@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        "use strict";
+        //lê dados de entrada
+        let semana = (prompt("Digite um dia da semana: "));
+        //Calculo e Resultado
+        if(semana == "Segunda-feira"|| semana == "Terça-feira" || semana == "Quarta-feira" || semana == "Quinta-feira" || semana == "Sexta-feira"){
+            document.write(semana+ " é um dia útil! ");
+        }
+        else if(semana== "Sábado"|| semana == "Domingo"){
+            document.write(semana+ " é fim de semana! ");
+        }
+        else{
+            document.write(semana+ " Dia inválido. Por favor, digite um dia da semana válido");
+        }
+    </script>
+</body>
+</html>
